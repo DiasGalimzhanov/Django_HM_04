@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load static%}
+
+{% block content %}
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="{% static 'images/1.jpg' %}" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Stive Harengton</h5>
+          <p class="card-text">Geolog</p>
+          <p class="card-text">8546111665251</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="{% static 'images/2.jpg' %}" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Devid Maksimof</h5>
+          <p class="card-text">Geodezist</p>
+          <p class="card-text">8498652652651</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="{% static 'images/3.jpg' %}" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Walter Black</h5>
+          <p class="card-text">General</p>
+          <p class="card-text">4151415154154</p>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
